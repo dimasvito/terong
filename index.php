@@ -366,7 +366,7 @@ echo '<div id="log" class="scroll"></div></pre></div>';
 </table></head>
 </div>
 	<div class="footer slide">
-        Xderm GUI v.2.9<br>
+        Xderm GUI<br>
 		Copyright&copy Ryan Fauzi
     </div>
 </html>
