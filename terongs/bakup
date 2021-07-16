@@ -1,0 +1,4 @@
+#!/bin/bash
+clear;echo "backup luci-theme"
+mv /www/luci-static/material/bak/style.css /www/luci-static/material/css
+echo "Wis bar, monggo reload"
