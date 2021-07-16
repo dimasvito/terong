@@ -1,6 +1,8 @@
 #!/bin/bash
 clear;echo "NGINSTALL TERONG THEME LUCI-MATERIAL"
 mkdir /www/luci-static/material/img
+mkdir /www/luci-static/material/bak
+mv /www/luci-static/material/css/style.css /www/luci-static/material/bak
 wget -O /www/luci-static/material/css/style.css https://raw.githubusercontent.com/dimasvito/terong/main/terongs/css/style.css
 wget -O /www/luci-static/material/img/terong.png https://raw.githubusercontent.com/dimasvito/terong/main/terongs/img/terong.png
 clear;echo "WIS BAR, MONGGO RELOAD WEBUI LUCI-MU"
