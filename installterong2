@@ -1,0 +1,5 @@
+#!/bin/bash
+wget -O /www/xderm/img/bg.png --no-check-certificate https://raw.githubusercontent.com/dimasvito/terong/main/bg.png
+wget -O /www/xderm/img/logo.png --no-check-certificate https://raw.githubusercontent.com/dimasvito/terong/main/logo.png
+wget -O /www/xderm/index.php --no-check-certificate https://raw.githubusercontent.com/dimasvito/terong/main/index2.php
+clear;echo "Wis bar, reload xderm mu"
